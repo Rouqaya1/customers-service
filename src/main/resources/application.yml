@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: customers-service
+  config:
+    import: optional:configserver:${CONFIG_SERVER_URL:http://config-server:8888}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+  metrics:
+    export:
+      cloudwatch:
+        enabled: true
+        namespace: PetClinicMetrics
+        step: 30s
+  endpoint:
+    health:
+      show-details: always

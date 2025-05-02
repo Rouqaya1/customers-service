@@ -1,0 +1,12 @@
+/home/rouqaya/projetpetclinicdockercompose/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java
+/home/rouqaya/projetpetclinicdockercompose/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/CustomersServiceApplication.java
+/home/rouqaya/projetpetclinicdockercompose/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetResource.java
+/home/rouqaya/projetpetclinicdockercompose/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/PetType.java
+/home/rouqaya/projetpetclinicdockercompose/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetDetails.java
+/home/rouqaya/projetpetclinicdockercompose/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/config/MetricConfig.java
+/home/rouqaya/projetpetclinicdockercompose/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/OwnerRepository.java
+/home/rouqaya/projetpetclinicdockercompose/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/PetRepository.java
+/home/rouqaya/projetpetclinicdockercompose/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Owner.java
+/home/rouqaya/projetpetclinicdockercompose/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetRequest.java
+/home/rouqaya/projetpetclinicdockercompose/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/ResourceNotFoundException.java
+/home/rouqaya/projetpetclinicdockercompose/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Pet.java
