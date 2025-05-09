@@ -7,15 +7,24 @@ env:
     REPOSITORY_URI: 863518447118.dkr.ecr.eu-west-3.amazonaws.com/customers-service
 
 phases:
+  install:
+    commands:
+      - echo "Installation de Maven..."
+      - apt-get update && apt-get install -y maven
+
   pre_build:
     commands:
       - echo "Connexion à ECR..."
       - aws ecr get-login-password --region $AWS_REGION | docker login --username AWS --password-stdin $REPOSITORY_URI
+
   build:
     commands:
+      - echo "Compilation et tests de l'application..."
+      - mvn clean install
       - echo "Construction de l'image Docker..."
       - docker build -t customers-service .
       - docker tag customers-service:$IMAGE_TAG $REPOSITORY_URI:$IMAGE_TAG
+
   post_build:
     commands:
       - echo "Push de l'image vers ECR..."
