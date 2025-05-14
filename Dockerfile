@@ -12,4 +12,4 @@ COPY target/spring-petclinic-customers-service-3.0.2.jar app.jar
 
 # Lancer l'application avec Dockerize qui attend Eureka
 ENTRYPOINT ["dockerize", "-wait=tcp://discovery-server:8761", "-timeout=60s", "--", "java", "-jar", "app.jar"]
-#df
+#dfsdn
